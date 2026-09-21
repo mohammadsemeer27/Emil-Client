@@ -1,8 +1,7 @@
 # 📧 Email Client
 
-A modern full-stack email client built with **Next.js, TypeScript, Tailwind CSS, PostgreSQL, and Drizzle ORM**.
-
 This project was developed based on the reference email-client design and includes core email management functionality such as inbox, sent emails, drafts, trash, search, compose, reply, and forward.
+
 
 ---
 
