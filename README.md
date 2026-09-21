@@ -1,7 +1,14 @@
 # 📧 Email Client
 
-This project was developed based on the reference email-client design and includes core email management functionality such as inbox, sent emails, drafts, trash, search, compose, reply, and forward.
+A modern full-stack email client built with **Next.js, TypeScript, Tailwind CSS, PostgreSQL, and Drizzle ORM**.
 
+It provides core email management functionality including **inbox, sent emails, drafts, trash, search, compose, reply, and forward**.
+
+---
+
+## 🎥 Demo
+
+[▶️ Watch the Email Client Project Demo](https://youtu.be/-zrYes0G5jE)
 
 ---
 
@@ -21,11 +28,6 @@ This project was developed based on the reference email-client design and includ
 - 📤 Send saved drafts
 - ↩️ Reply to emails
 - ↪️ Forward emails
-- 👀 Email viewer
-- 📱 Responsive interface
-- 🗄️ PostgreSQL database
-- 🔌 REST API using Next.js Route Handlers
-- 💾 Persistent database storage using Drizzle ORM
 
 ---
 
