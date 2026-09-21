@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📧 Email Client
 
-## Getting Started
+A modern full-stack email client built with **Next.js, TypeScript, Tailwind CSS, PostgreSQL, and Drizzle ORM**.
 
-First, run the development server:
+This project was developed based on the reference email-client design and includes core email management functionality such as inbox, sent emails, drafts, trash, search, compose, reply, and forward.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📥 Inbox
+- ⭐ Star / Unstar emails
+- 📤 Sent emails
+- 📝 Draft emails
+- 🗑️ Trash
+- ♻️ Restore emails from trash
+- ❌ Permanently delete emails
+- 🔍 Search emails
+- ✉️ Compose new emails
+- 💾 Save emails as drafts
+- ✏️ Edit existing drafts
+- 📤 Send saved drafts
+- ↩️ Reply to emails
+- ↪️ Forward emails
+- 👀 Email viewer
+- 📱 Responsive interface
+- 🗄️ PostgreSQL database
+- 🔌 REST API using Next.js Route Handlers
+- 💾 Persistent database storage using Drizzle ORM
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Backend
 
-## Deploy on Vercel
+- Next.js API Routes / Route Handlers
+- PostgreSQL
+- Drizzle ORM
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Development Tools
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Node.js
+- npm
+- Git
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+email-client/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── emails/
+│   │   │       ├── route.ts
+│   │   │       └── [id]/
+│   │   │           └── route.ts
+│   │   ├── page.tsx
+│   │   └── ...
+│   │
+│   ├── components/
+│   │   ├── Sidebar.tsx
+│   │   ├── Header.tsx
+│   │   ├── EmailList.tsx
+│   │   ├── EmailViewer.tsx
+│   │   └── ComposeEmail.tsx
+│   │
+│   └── db/
+│       ├── index.ts
+│       └── schema.ts
+│
+├── drizzle/
+├── public/
+├── .env
+├── drizzle.config.ts
+├── package.json
+└── README.md
